@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFF5F5;
+    color: #497174;
+}
+
+.hangman{
+    font-size: 10vh;
+    text-align: center;
+    margin: 5vh;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh;
+    font-weight: bold;
+
+}
+
+#score {
+    height: 5vh;
+}
+
+#letter-bank {
+    height: 5vh;
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+#state {
+    text-align: center;
+    text-decoration: dotted;
+}
+
+#word {
+    display: flex;
+    margin: 5vh;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+}
+
+.letter {
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+    margin: auto;
+}
+
+.usedletter {
+    width: 5vh;
+    height: 5vh;
+}
+
+.text-input {
+    width: 30vh;
+    height: 5vh;
+    background-color: #EFF5F5;
+    border: none;
+    border-bottom: solid #497174;
+    outline: none;
+}
+
+.text-input:focus:active {
+    background-color: #EFF5F5;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: solid #497174;
+    color: #497174;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.not-fade-in {
+    font-family: Arial;
+    font-size: 60px;
+}
+
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 10vh;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
